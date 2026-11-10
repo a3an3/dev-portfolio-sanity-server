@@ -19,8 +19,8 @@ pulls this content at build time and is provisioned from it.
 1. Content is edited in the Sanity Studio.
 2. The example static website queries the content via GROQ at build time,
    using the generated types from `sanity.types.ts`.
-3. [On publish, a webhook triggers a rebuild, so the site is re-provisioned
-   with the latest content.]
+3. On publish, a webhook triggers a rebuild, so the site is re-provisioned
+   with the latest content.
 
 ## Getting started
 
